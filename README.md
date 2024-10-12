@@ -82,7 +82,6 @@ Copy code
 - **Screenshots:** Placeholder for adding screenshots of your website.
 - **License and Contact Information:** Standard sections for open-source repositories.
 
-You can replace the placeholder URLs and images with your actual project details. Let me know if you need any additional changes!
 
 
 
