@@ -1,0 +1,392 @@
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>RedStore | Ecommerce Website Design Project</title>
+            <link rel="stylesheet" href="style.css">
+            <!-- Add your other meta tags and links here -->
+        </head>
+        <body>
+            <div class="navbar">
+                <div class="container">
+                    <div class="logo">
+                        <img src="images/logo.png" alt="logo" width="125px">
+                    </div>
+                    <nav>
+                        <ul id="MenuItems">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Products</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Contact</a></li>
+                            <li><a href="">Account</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+                
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+
+            <div class="row">
+                <div class="col-2">
+                    <h1>Welcome to LuxeFit</h1>
+                    <div class="centered-text">
+                        <p>Discover the latest trends and styles with LuxeFit, the premier destination for fashion enthusiasts. Try on your favorite pieces virtually and experience the luxury of personalized shopping from the comfort of your home.</p>
+                    </div>
+                    <a href="" class="btn">Explore Now &#10147;</a>
+                </div>
+                
+                
+                
+                <div class="col-2">
+                    <img src="images/image1.png" alt="Banner">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!---------------- featured categories ---------------->
+        <div class="categories">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="images/category-1.jpg">
+                    </div>
+                    <div class="col-3">
+                        <img src="images/category-2.jpg">
+                    </div>
+                    <div class="col-3">
+                        <img src="images/category-3.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!---------------- featured products ---------------->
+
+        <div class="small-container">
+            <h2 class="title">Featured Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/product-1.jpg" onclick="openOverlay('images/product-1.jpg')">
+                    <h4>Beach shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p><strong>$60.00</strong></p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-2.jpg" onclick="openOverlay('images/product-2.jpg')">
+                    <h4>Floral Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p><strong>$65.00</strong></p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-3.jpg" onclick="openOverlay('images/product-3.jpg')">
+                    <h4>Designer's Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p><strong>$50.00</strong></p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-4.jpg" onclick="openOverlay('images/product-4.jpg')">
+                    <h4>Blue shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p><strong>$52.00</strong></p>
+                </div>
+            </div>
+
+            <h2 class="title">Recently Added Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/product-5.jpg" onclick="openOverlay('images/product-5.jpg')">
+                    <h4>Flower Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p><strong>$60.00</strong></p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-6.jpg" onclick="openOverlay('images/product-6.jpg')">
+                    <h4>White Coloured T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p><strong>$65.00</strong></p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-7.jpg" onclick="openOverlay('images/product-7.jpg')">
+                    <h4>Black Printed T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p><strong>$50.00</strong></p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-8.jpg" onclick="openOverlay('images/product-8.jpg')">
+                    <h4>Grey Checkered Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p><strong>$52.00</strong></p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/product-9.jpg" onclick="openOverlay('images/product-9.jpg')">
+                    <h4>Blue Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p><strong>$60.00</strong></p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-10.jpg" onclick="openOverlay('images/product-10.jpg')">
+                    <h4>Khaki Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p><strong>$65.00</strong></p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-11.jpg" onclick="openOverlay('images/product-11.jpg')">
+                    <h4>Crop Top</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p><strong>$50.00</strong></p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-12.jpg" onclick="openOverlay('images/product-12.jpg')">
+                    <h4>Track Pant</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p><strong>$52.00</strong></p>
+                </div>
+            </div>
+        </div>
+<!------------------ offer ------------->
+
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/exclusive.png" class="offer-image">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available On RedStore</p>
+                    <h1>Smart Band 4</h1>
+                    <small>The Mi Smart Band 4 Features a 39.9% larger
+                        (Than Mi Band 3) AMOLED color full-touch display
+                        with adjustable brightness, so everything is clear 
+                        as can be.
+                    </small><br>
+                    <a href="" class="btn">Buy Now &#10141;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------testimonial -->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fas fa-quote-left"></i>
+                    <p style="font-size: 12px;
+                    margin: 12px 0;
+                    color: #777;">Enthusiastic and motivated university student with a strong foundation in web development and a growing interest in
+                    machine learning and artificial intelligence. Proficient in front-end technologies.</p>
+
+                        <img src="images/sriva.jpg">
+                        <h3>Srivatsav V</h3>
+                     <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="far fa-star"></i>
+                     </div>
+                </div>
+                <div class="col-3">
+                    <i class="fas fa-quote-left"></i>
+                    <p style="font-size: 12px;
+                    margin: 12px 0;
+                    color: #777;">Certified Tensorflow Developer,with good leadership and team collaboration.
+                    I'm looking for chances to widen my professional horizons and get useful
+                    experience</p>
+
+                        <img src="images/gagan.jpg">
+                        <h3>Gagandeep V</h3>
+                     <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="far fa-star"></i>
+                     </div>
+                </div>
+                <div class="col-3">
+                    <i class="fas fa-quote-left"></i>
+                    <p style="font-size: 12px;
+                    margin: 12px 0;
+                    color: #777;">Aspiring UI UX and Graphic Designer enthusiast currently pursuing Btech Computer Science.Committed to leveraging my potential.</p>
+
+                        <img src="images/sandy.jpg">
+                        <h3>Santhosh R</h3>
+                     <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="far fa-star"></i>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- -------------brands----------- -->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="images/logo-godrej.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-oppo.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-coca-cola.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-paypal.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-philips.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-------------footer---------->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo.png">
+                    <p>Our Purpose is to sustainably make the pleasure and benefits 
+                        of sports accessible to the many.
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Return Policy</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul class="links">
+                        <!-- <li><a href="https://www.linkedin.com/in/pranav-kumar-gupta-231803182/" target="_blank">LinkedIn</a></li> -->
+                        <li><a href="https://github.com/srivatsav09/E-Commerce-website.git" target="_blank">Github</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <!-- <p class="copyright">copyright@pranav301999</p> -->
+        </div>
+    </div>
+
+<!-- ---------------------Javascipt For Menu Toggle------------- -->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px"
+                }
+            else
+                {
+                    MenuItems.style.maxHeight = "0px"
+                }    
+        }
+    </script>
+    <script>
+        function openOverlay(imageSrc) {
+            window.open('http://127.0.0.1:5000?image=' + encodeURIComponent(imageSrc), '_blank');
+            // Replace 'backend_site_url' with the URL of your backend site
+            // Pass the image source as a query parameter to the backend site
+        }
+    </script>
+</body>
+</html>

@@ -1,2 +1,2 @@
-# Simple-E-commerce-website
-E-commerce website using only html css and js
+# E-Commerce-website-design
+Simple Ecommerce website design using only html and css as a project
